@@ -69,7 +69,6 @@ Send2Trash==1.5.0
 six==1.15.0
 sniffio==1.2.0
 streamlit
-scikit-learn==0.22.1
 tenacity==7.0.0
 terminado==0.9.2
 testpath==0.4.4
