@@ -14,7 +14,7 @@ import streamlit as st
 from PIL import Image
 
 pickle_in = open("model.pkl","rb")
-linear = pickle.load(pickle_in)
+l = pickle.load(pickle_in)
 
 def welcome():
     return "Welcome All"
@@ -63,7 +63,7 @@ def main():
     result=""
 
     if st.button("Predict"):
-        result = linear.predict(af)[0]
+        result = l.predict(af)[0]
     st.success('Predicted Close Price : $ {}'.format(result))
     if st.button("About"):
         st.text("Close price of a stock is predicted based on news headlines and historical data using Linear Regression")
