@@ -17,7 +17,6 @@ from nltk.corpus import stopwords
 from scipy import stats
 
 nltk.download('vader_lexicon')
-import unicodedata
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 # Adding Subjectivity and Polarity columns
