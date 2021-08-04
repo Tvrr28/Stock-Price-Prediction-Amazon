@@ -6,7 +6,6 @@ Created on Sun August 1 10:30:00 2021
 
 
 import pickle
-import re
 
 import nltk
 import numpy as np
