@@ -44,6 +44,7 @@ nbclient==0.5.2
 nbconvert==6.0.7
 nbformat==5.1.2
 nest-asyncio==1.5.1
+nltk
 notebook==6.2.0
 numpy==1.21.0
 packaging==20.9
@@ -64,6 +65,7 @@ python-dateutil==2.8.1
 pytz==2021.1
 pywinpty==0.5.7
 pyzmq==22.0.3
+re
 requests==2.25.1
 scipy
 sklearn
@@ -71,11 +73,14 @@ Send2Trash==1.5.0
 six==1.15.0
 sniffio==1.2.0
 streamlit
+string
 tenacity==7.0.0
 terminado==0.9.2
 testpath==0.4.4
+textblob
 tornado==6.1
 traitlets==5.0.5
+unicodedata
 urllib3==1.26.3
 wcwidth==0.2.5
 webencodings==0.5.1
