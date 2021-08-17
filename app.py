@@ -108,13 +108,7 @@ def main():
     head = filter(Headlines)
     cmpd,negt,neut,post,subj,pol = sent_anls(head)
     
-    
-    #compound = st.slider("Compound",min_value=0.00 , max_value = 1.00 ,step = 0.01)
-    #negative = st.slider("negative",min_value=0.00 , max_value = 1.00 ,step = 0.01)
-    #eutral = st.slider("neutral",min_value=0.00 , max_value = 1.00 ,step = 0.01)
-    #positive = st.slider("positive",min_value=0.00 , max_value = 1.00 ,step = 0.01)
-    #Subjectivity = st.slider("Subjectivity",min_value=0.00 , max_value = 1.00 ,step = 0.01)
-    #Polarity = st.slider("Polarity",min_value=0.00 , max_value = 1.00 ,step = 0.01)
+   
 
     af = pd.DataFrame()
     af['compound'] = cmpd
